@@ -9,4 +9,4 @@ def inicio(request):
 
 
 def cadastro(request):
-    pass
+    return render(request, 'cadastro.html')

@@ -141,17 +141,16 @@
     </div>
 
     
-<div class="col-lg-8 mx-auto p-4 py-md-5">
-  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+<div class="col-lg-8 mx-auto p-4 ">
+  <header class="d-flex align-items-center pt-3 pb-3 mb-5 border-bottom fixed-top bg-secondary">
+    <a href="/" class="d-flex align-items-center  text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">Cursos online</span>
+      <span class="fs-4 text-white">🌐 Cursos online</span>
     </a>
   </header>
-
-  <main>
+  <main class="pt-5">
     {% block principal %}
-    <h1 class="text-body-emphasis">Inicie no mundo da programação</h1>
+    <h1 class="text-body-emphasis pt-3">Inicie no mundo da programação</h1>
     
    
     <p class="fs-5 col-md-8">Diversos cursos gratuitos!</p>
@@ -163,14 +162,18 @@
     <hr class="col-3 col-md-2 mb-5">
     {% endblock %}
   </main>
-  <footer class="pt-5 my-5 text-body-secondary border-top">
-    Criado por Isadora Ferrão
-  </footer>
+  <footer class="p-2  text-body-secondary border-top fixed-bottom bg-secondary text-white">
+    <div class="container ">
+        <div class="text-center">
+            <span>&copy; 2024 Cursos Online</span>
+        </div>
+        <div class="text-center mt-2">
+            <span><strong>Seu futuro começa aqui:</strong> Aprendizado flexível, onde e quando você quiser.</span>
+        </div>
+    </div>
+</footer>
+
 </div>
-
-
   <script src="/static/bootstrap.bundle.min.js"></script>
-
-      
   </body>
 </html>
