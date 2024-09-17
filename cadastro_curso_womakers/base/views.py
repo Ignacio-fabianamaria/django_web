@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from base.forms import CadastroForm
 
 
@@ -8,12 +8,11 @@ def inicio(request):
 
 def cadastro(request):
     sucesso = False
-    if request.method == 'GET':
-        form = CadastroForm()
-    else:
-        form = CadastroForm(request.POST)
-        if form.is_valid():
-            sucesso = True
+    form = CadastroForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        sucesso = True
+        return redirect('/cadastro')
     contexto = {
         'form': form,
         'sucesso': sucesso
