@@ -1,7 +1,5 @@
 from django.shortcuts import render
-# from django.http import HttpResponse
-
-# Create your views here.
+from base.forms import CadastroForm
 
 
 def inicio(request):
@@ -9,4 +7,15 @@ def inicio(request):
 
 
 def cadastro(request):
-    return render(request, 'cadastro.html')
+    sucesso = False
+    if request.method == 'GET':
+        form = CadastroForm()
+    else:
+        form = CadastroForm(request.POST)
+        if form.is_valid():
+            sucesso = True
+    contexto = {
+        'form': form,
+        'sucesso': sucesso
+    }
+    return render(request, 'cadastro.html', contexto)
