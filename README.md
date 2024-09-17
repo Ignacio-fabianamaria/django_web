@@ -51,4 +51,31 @@ python3 manage.py runserver
 
 ```
 
+## 6. Configurar o Banco de Dados
+Sempre que houver alterações nos modelos do Django, execute os seguintes comandos para configurar o banco de dados:
+
+- Gerar arquivos de migração:
+
+```bash
+python manage.py makemigrations
+
+```
+
+- Aplicar as migrações ao banco de dados:
+
+```bash
+python manage.py migrate
+
+```
+
+## 7. Criar um Superusuário
+Para acessar o painel administrativo do Django, crie um superusuário:
+
+```bash
+python manage.py createsuperuser
+
+```
+
+
+
 # Em Construção 🚧
