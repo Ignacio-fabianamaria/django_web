@@ -10,7 +10,7 @@ class Curso(models.Model):
     titulo = models.CharField(max_length=50)
     nivel = models.CharField(max_length=50, choices=niveis_de_curso)
     carga_horaria = models.IntegerField()
-    data_do_curso = models.DateField(help_text='aaaa/mm/dd')
+    data_do_curso = models.DateField(help_text='aaaa-mm-dd')
     descricao = models.TextField()
 
     def __str__(self):
