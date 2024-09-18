@@ -1,6 +1,8 @@
 
 ### Explicação dos Comandos
 
+#### Cadastro
+
 1. **`pip install virtualenv`**: Instala o pacote `virtualenv`, que permite criar ambientes virtuais Python.
 
 2. **`python3 -m venv cadastro_curso_womakers`**: Cria um ambiente virtual chamado `cadastro_curso_womakers`.
@@ -15,9 +17,18 @@
 
 7. **`python3 manage.py runserver`**: Inicia o servidor de desenvolvimento do Django para que você possa visualizar o projeto no navegador.
 
-8. **`python manage.py makemigrations`**: Gera arquivos de migração para refletir alterações nos modelos do Django.
+8. **`python3 manage.py makemigrations`**: Gera arquivos de migração para refletir alterações nos modelos do Django.
 
-9. **`python manage.py migrate`**: Aplica as migrações ao banco de dados para atualizar seu esquema.
+9. **`python3 manage.py migrate`**: Aplica as migrações ao banco de dados para atualizar seu esquema.
 
-10. **`python manage.py createsuperuser`**: Cria um superusuário para acessar o painel administrativo do Django.
+10. **`python3 manage.py createsuperuser`**: Cria um superusuário para acessar o painel administrativo do Django.
 
+
+
+
+
+#### Cursos
+python3 manage.py startapp cursos
+
+#### Chache na aplicação
+pip install redis

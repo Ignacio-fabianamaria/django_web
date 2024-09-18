@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from base.forms import CadastroForm
 
 
@@ -12,7 +12,6 @@ def cadastro(request):
     if form.is_valid():
         form.save()
         sucesso = True
-        return redirect('/cadastro')
     contexto = {
         'form': form,
         'sucesso': sucesso
