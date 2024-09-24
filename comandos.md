@@ -28,7 +28,11 @@
 
 
 #### Cursos
-python3 manage.py startapp cursos
 
-#### Chache na aplicação
-pip install redis
+1. **`python3 manage.py startapp cursos`**: Cria uma nova aplicação chamada cursos dentro do projeto Django.
+
+#### Rest_API
+
+1. **`pip install djangorestframework`**: Instala o Django REST Framework, que permite construir APIs robustas no Django.
+
+2. **`python manage.py startapp rest_ap`**: Cria uma nova aplicação chamada rest_api dentro do projeto Django
