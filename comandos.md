@@ -1,7 +1,7 @@
 
-### Explicação dos Comandos
+### ⚙️ Comandos Utilizados
 
-#### Cadastro
+#### 🔹 Cadastro
 
 1. **`pip install virtualenv`**: Instala o pacote `virtualenv`, que permite criar ambientes virtuais Python.
 
@@ -24,14 +24,11 @@
 10. **`python3 manage.py createsuperuser`**: Cria um superusuário para acessar o painel administrativo do Django.
 
 
-
-
-
-#### Cursos
+#### 🔹 Cursos
 
 1. **`python3 manage.py startapp cursos`**: Cria uma nova aplicação chamada cursos dentro do projeto Django.
 
-#### Rest_API
+#### 🔹 Rest_API
 
 1. **`pip install djangorestframework`**: Instala o Django REST Framework, que permite construir APIs robustas no Django.
 
