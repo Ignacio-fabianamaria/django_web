@@ -33,3 +33,16 @@
 1. **`pip install djangorestframework`**: Instala o Django REST Framework, que permite construir APIs robustas no Django.
 
 2. **`python manage.py startapp rest_ap`**: Cria uma nova aplicação chamada rest_api dentro do projeto Django
+
+#### Testes de API
+
+pip install pytest-django
+
+criar na raiz do projeto o arquivo pytest.ini com a seguinte config:
+
+ ``` bash
+ [pytest]
+DJANGO_SETTINGS_MODULE = projeto_womakers.settings
+python_files = tests.py test_*.py *_test.py
+
+```
