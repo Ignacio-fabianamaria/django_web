@@ -20,3 +20,7 @@ staticfiles/
 
 # Mac OS
 .DS_Store
+
+lib/
+lib64/
+
