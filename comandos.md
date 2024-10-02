@@ -34,15 +34,17 @@
 
 2. **`python manage.py startapp rest_ap`**: Cria uma nova aplicação chamada rest_api dentro do projeto Django
 
-#### Testes de API
 
-pip install pytest-django
+#### 🔹 Testes de API
 
-criar na raiz do projeto o arquivo pytest.ini com a seguinte config:
+1. **`pip install pytest-django`**: Instala o pytest para rodar testes no Django.
+2. Crie na raiz do projeto o arquivo `pytest.ini` com a seguinte configuração:
 
- ``` bash
- [pytest]
-DJANGO_SETTINGS_MODULE = projeto_womakers.settings
-python_files = tests.py test_*.py *_test.py
+   ```bash
+   [pytest]
+   DJANGO_SETTINGS_MODULE = projeto_womakers.settings
+   python_files = tests.py test_*.py *_test.py
 
-```
+   ```
+
+3. **`pip install model-bakery`**: biblioteca do Django utilizada para facilitar a criação de objetos de modelo (modelos de dados) para testes.

@@ -1,5 +1,27 @@
 # 🌐 django_web
 
+## 🖼️ Imagens da Aplicação
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/images/home.png" alt="Home" width="300"/>
+    </td>
+    <td align="center">
+      <img src="assets/images/admin.png" alt="Admin" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/images/cadastro_usuario.png" alt="Cadastro de Usuário" width="300"/>
+    </td>
+    <td align="center">
+      <img src="assets/images/cadastro_curso.png" alt="Cadastro de Curso" width="300"/>
+    </td>
+  </tr>
+</table>
+
+
 ## 📝 Descrição
 
 Este projeto faz parte do módulo de **Django Web** do Bootcamp de Python & Django oferecido pela **WoMakersCode**, em parceria com **iFood**, **Potência Tech** e **Microsoft**. O objetivo do projeto foi praticar os conceitos iniciais de Django criando uma aplicação de cadastros para uma plataforma de cursos online.
@@ -90,6 +112,12 @@ python manage.py createsuperuser
 
 ```
 
+## 🧪 Testes
 
+Esta aplicação inclui testes para verificar o funcionamento correto dos modelos e das views do app Cursos. Para executar os testes, siga as instruções abaixo.
 
-# Em Construção 🚧
+Para rodar todos os testes da aplicação, utilize o seguinte comando:
+
+```bash
+pytest
+```
