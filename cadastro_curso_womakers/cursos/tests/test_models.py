@@ -1,7 +1,7 @@
+import pytest
 from datetime import date
 from model_bakery import baker
 from cursos.models import Curso
-import pytest
 
 
 @pytest.fixture
