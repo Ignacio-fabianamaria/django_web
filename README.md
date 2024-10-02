@@ -5,19 +5,27 @@
 <table>
   <tr>
     <td align="center">
-      <img src="assets/images/home.png" alt="Home" width="300"/>
+      <img src="assets/images/home.png" alt="Home" width="500"/>
     </td>
     <td align="center">
-      <img src="assets/images/admin.png" alt="Admin" width="300"/>
+      <img src="assets/images/admin.png" alt="Admin" width="500"/>
     </td>
   </tr>
   <tr>
+    <td align="center">Home</td>
+    <td align="center">Admin</td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/images/cadastro_usuario.png" alt="Cadastro de Usuário" width="300"/>
+      <img src="assets/images/cadastro_usuario.png" alt="Cadastro de Usuário" width="500"/>
     </td>
     <td align="center">
-      <img src="assets/images/cadastro_curso.png" alt="Cadastro de Curso" width="300"/>
+      <img src="assets/images/cadastro_curso.png" alt="Cadastro de Curso" width="500"/>
     </td>
+  </tr>
+  <tr>
+    <td align="center">Cadastro de Usuário</td>
+    <td align="center">Cadastro de Curso</td>
   </tr>
 </table>
 
